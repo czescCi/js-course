@@ -41,12 +41,12 @@
 </body>
 <script>
     let buttonBar = document.querySelector(".button-bar");
-    let buttons = document.querySelectorAll(".btn");
+    let buttons = document.querySelectorAll("[data-color]");
 
     // Add your code here
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener("click", function() {
-            buttonBar.style.backgroundColor = buttons[i].innerHTML;
+            buttonBar.style.backgroundColor = buttons[i].getAttribute("data-color");
         });
     }
 </script>

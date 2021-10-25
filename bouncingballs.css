@@ -13,6 +13,10 @@ body {
     height: inherit;
 }
 
+#res-canvas {
+    width: 100%;
+}
+
 h1 {
     font-size: 2rem;
     letter-spacing: -1px;
@@ -22,4 +26,12 @@ h1 {
     right: 5px;
     color: transparent;
     text-shadow: 0 0 4px white;
+}
+
+p {
+    position: absolute;
+    margin: 0;
+    top: 35px;
+    right: 5px;
+    color: #aaa;
 }
